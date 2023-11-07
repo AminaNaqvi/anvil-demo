@@ -13,7 +13,7 @@ components:
   type: Label
   layout_properties: {slot: title}
 - name: check_button
-  properties: {text: Say Hello}
+  properties: {text: Say Hello, role: tonal-button}
   type: Button
   layout_properties: {slot: default}
   event_bindings: {click: check_button_click}
