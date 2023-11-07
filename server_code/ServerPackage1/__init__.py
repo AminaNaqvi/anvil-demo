@@ -7,8 +7,10 @@ import anvil.server
 # them with @anvil.server.callable.
 # Here is an example - you can replace it with your own:
 #
-# @anvil.server.callable
-# def say_hello(name):
-#   print("Hello, " + name + "!")
-#   return 42
+import anvil.server
+
+@anvil.server.callable
+def say_hello(name):
+  print("Hello, " + name + "!")
+  return 42
 #
