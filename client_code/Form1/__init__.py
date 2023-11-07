@@ -12,3 +12,7 @@ class Form1(Form1Template):
   def check_button_click(self, **event_args):
     """This method is called when the button is clicked"""
     anvil.server.call('say_hello', 'Amina')
+
+
+def test():
+  print("This is Talha")
